@@ -18,7 +18,8 @@ class ViewController: UIViewController {
   
   var emojiChoices = ["👻","🎃","👻","🎃"]
   @IBOutlet var cardButtons: [UIButton]!
-  @IBOutlet weak var flipCountLabel: UILabel!
+  @IBOutlet weak var flipCountLabel:
+  UILabel!
   
   @IBAction func touchButton(_ sender: UIButton) {
     flipCount += 1
@@ -35,16 +36,19 @@ class ViewController: UIViewController {
     // Do any additional setup after loading the view, typically from a nib.
   }
   
-  func flipCard(withEmoji emoji: String, on button: UIButton) {
-    if button.currentTitle == emoji {
-      button.setTitle("", for: .normal)
-      button.backgroundColor = UIColor.orange
-    } else {
-      button.setTitle(emoji, for: .normal)
-      button.backgroundColor = UIColor.white
+  func updateviewModel() {
+    for index in cardButtons.indices {
+      let button = cardButtons[index]
+      let card = game.cards[index]
+      if card.isFaceUp {
+        button.setTitle(emoji(for: card), for: .normal)
+        button.backgroundColor = UIColor.white
+      } else {
+        button.setTitle("", for: .normal)
+        button.backgroundColor = card.isMatched ? UIColor.clear : UIColor.orange
+      }
     }
   }
-  
   
   
 }
