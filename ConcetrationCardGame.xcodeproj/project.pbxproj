@@ -7,79 +7,108 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00AD33C92228193900ACC9B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD33C82228193900ACC9B3 /* AppDelegate.swift */; };
-		00AD33CB2228193900ACC9B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD33CA2228193900ACC9B3 /* ViewController.swift */; };
-		00AD33CE2228193900ACC9B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00AD33CC2228193900ACC9B3 /* Main.storyboard */; };
-		00AD33D02228193B00ACC9B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00AD33CF2228193B00ACC9B3 /* Assets.xcassets */; };
-		00AD33D32228193B00ACC9B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00AD33D12228193B00ACC9B3 /* LaunchScreen.storyboard */; };
-		00AD33DB222972E400ACC9B3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD33DA222972E400ACC9B3 /* Card.swift */; };
-		00AD33DD222975AF00ACC9B3 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD33DC222975AF00ACC9B3 /* Concentration.swift */; };
+		0B104BCD1B59CEA8586C66DE5EB0BB07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A9C5063944173F056701EF18A4D9CC /* Assets.xcassets */; };
+		13A9FA6462E47C86D7304159E2A4A30C /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EC95961C774605DDC80384E3392BF /* Concentration.swift */; };
+		5227A6725E12C92AFD8B7C17E1BB7799 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CC013F5368E13ED46DF8D107BBE94 /* ViewController.swift */; };
+		548202D32B202D093F2A17F02DDE50F0 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30C20A450EF9AD0851813E5B1C4B50 /* Card.swift */; };
+		5FC2F0100BCDEB58289D9C340EB510CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A9CA8F6DDE7775AD58646F89924E95 /* AppDelegate.swift */; };
+		6463F1348DC7D128275617860BAF7FE4 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = F3FE254B7EA1ED8C0C1C9662159FE844 /* .swiftlint.yml */; };
+		B46EA3D97C16E39B4818D8469BADBCE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB75C933D06A07B27FD9E0CB0356894 /* LaunchScreen.storyboard */; };
+		D4075A432884689D2246B1CD23C4AC9D /* Pods_ConcetrationCardGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F346950E25905F62BF3536290747FE /* Pods_ConcetrationCardGame.framework */; };
+		E56D372444538955255477A9FF8932D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9149066092A625C857F50F4B2F10AA7 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00AD33C52228193900ACC9B3 /* ConcetrationCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcetrationCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		00AD33C82228193900ACC9B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00AD33CA2228193900ACC9B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		00AD33CD2228193900ACC9B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		00AD33CF2228193B00ACC9B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00AD33D22228193B00ACC9B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		00AD33D42228193B00ACC9B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00AD33DA222972E400ACC9B3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		00AD33DC222975AF00ACC9B3 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		1547EECD4D425E005E073FCB16E6372F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401CC013F5368E13ED46DF8D107BBE94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C6FC1A80D1932E171C278F9A0D80049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81A9C5063944173F056701EF18A4D9CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FEF29D7279215DDD5DB6F169B8580AC /* ConcetrationCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcetrationCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90AA51C3BE4AE93063DE65D68075337E /* Pods-ConcetrationCardGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConcetrationCardGame.debug.xcconfig"; path = "Target Support Files/Pods-ConcetrationCardGame/Pods-ConcetrationCardGame.debug.xcconfig"; sourceTree = "<group>"; };
+		A54EC95961C774605DDC80384E3392BF /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		A6432DBACFDE5621E864B298B61C66DD /* Pods-ConcetrationCardGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConcetrationCardGame.release.xcconfig"; path = "Target Support Files/Pods-ConcetrationCardGame/Pods-ConcetrationCardGame.release.xcconfig"; sourceTree = "<group>"; };
+		A7F346950E25905F62BF3536290747FE /* Pods_ConcetrationCardGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConcetrationCardGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA30C20A450EF9AD0851813E5B1C4B50 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		D4028B59CC20B51A998CA724EA32417C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2A9CA8F6DDE7775AD58646F89924E95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3FE254B7EA1ED8C0C1C9662159FE844 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00AD33C22228193900ACC9B3 /* Frameworks */ = {
+		48DB16E8875DB453E832F76D067F5B10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4075A432884689D2246B1CD23C4AC9D /* Pods_ConcetrationCardGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00AD33BC2228193900ACC9B3 = {
+		A683F1CC10770B96389EC6B7029F411B = {
 			isa = PBXGroup;
 			children = (
-				00AD33C72228193900ACC9B3 /* ConcetrationCardGame */,
-				00AD33C62228193900ACC9B3 /* Products */,
+				28B3F1452052760970DCBBF836736ED3 /* ConcetrationCardGame */,
+				C838B0133A7832FBB37228C64E714ECC /* Frameworks */,
+				848B8706FFCD4BF5A2586D65F22C0F5F /* Pods */,
+				06FF9595CEA0ABF8300F87B6ECE7E3D7 /* Products */,
+				F3FE254B7EA1ED8C0C1C9662159FE844 /* .swiftlint.yml */,
 			);
 			sourceTree = "<group>";
 		};
-		00AD33C62228193900ACC9B3 /* Products */ = {
+		06FF9595CEA0ABF8300F87B6ECE7E3D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00AD33C52228193900ACC9B3 /* ConcetrationCardGame.app */,
+				8FEF29D7279215DDD5DB6F169B8580AC /* ConcetrationCardGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00AD33C72228193900ACC9B3 /* ConcetrationCardGame */ = {
+		28B3F1452052760970DCBBF836736ED3 /* ConcetrationCardGame */ = {
 			isa = PBXGroup;
 			children = (
-				00AD33C82228193900ACC9B3 /* AppDelegate.swift */,
-				00AD33CA2228193900ACC9B3 /* ViewController.swift */,
-				00AD33DA222972E400ACC9B3 /* Card.swift */,
-				00AD33DC222975AF00ACC9B3 /* Concentration.swift */,
-				00AD33CC2228193900ACC9B3 /* Main.storyboard */,
-				00AD33CF2228193B00ACC9B3 /* Assets.xcassets */,
-				00AD33D12228193B00ACC9B3 /* LaunchScreen.storyboard */,
-				00AD33D42228193B00ACC9B3 /* Info.plist */,
+				F2A9CA8F6DDE7775AD58646F89924E95 /* AppDelegate.swift */,
+				81A9C5063944173F056701EF18A4D9CC /* Assets.xcassets */,
+				CA30C20A450EF9AD0851813E5B1C4B50 /* Card.swift */,
+				A54EC95961C774605DDC80384E3392BF /* Concentration.swift */,
+				1547EECD4D425E005E073FCB16E6372F /* Info.plist */,
+				9BB75C933D06A07B27FD9E0CB0356894 /* LaunchScreen.storyboard */,
+				F9149066092A625C857F50F4B2F10AA7 /* Main.storyboard */,
+				401CC013F5368E13ED46DF8D107BBE94 /* ViewController.swift */,
 			);
 			path = ConcetrationCardGame;
+			sourceTree = "<group>";
+		};
+		848B8706FFCD4BF5A2586D65F22C0F5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90AA51C3BE4AE93063DE65D68075337E /* Pods-ConcetrationCardGame.debug.xcconfig */,
+				A6432DBACFDE5621E864B298B61C66DD /* Pods-ConcetrationCardGame.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C838B0133A7832FBB37228C64E714ECC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7F346950E25905F62BF3536290747FE /* Pods_ConcetrationCardGame.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00AD33C42228193900ACC9B3 /* ConcetrationCardGame */ = {
+		AE4859AF663A5A9661EA302A88605AD5 /* ConcetrationCardGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00AD33D72228193B00ACC9B3 /* Build configuration list for PBXNativeTarget "ConcetrationCardGame" */;
+			buildConfigurationList = 866EE4775420F370190C2CAA5E0203EA /* Build configuration list for PBXNativeTarget "ConcetrationCardGame" */;
 			buildPhases = (
-				00AD33C12228193900ACC9B3 /* Sources */,
-				00AD33C22228193900ACC9B3 /* Frameworks */,
-				00AD33C32228193900ACC9B3 /* Resources */,
+				A721C7A561AD02755D1DF53ADC0A47DA /* [CP] Check Pods Manifest.lock */,
+				2DD1632D662784A218E24C3FCAF66BBB /* Sources */,
+				48DB16E8875DB453E832F76D067F5B10 /* Frameworks */,
+				E8FDF15145D43D0CD3B324AC1098976A /* Resources */,
+				4FA8B25D6E1988F46CABC324422760C0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -87,25 +116,25 @@
 			);
 			name = ConcetrationCardGame;
 			productName = ConcetrationCardGame;
-			productReference = 00AD33C52228193900ACC9B3 /* ConcetrationCardGame.app */;
+			productReference = 8FEF29D7279215DDD5DB6F169B8580AC /* ConcetrationCardGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		00AD33BD2228193900ACC9B3 /* Project object */ = {
+		04006C19A9ABA0404E83A93D80990AF8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "이재은";
 				TargetAttributes = {
-					00AD33C42228193900ACC9B3 = {
+					AE4859AF663A5A9661EA302A88605AD5 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 00AD33C02228193900ACC9B3 /* Build configuration list for PBXProject "ConcetrationCardGame" */;
+			buildConfigurationList = 873E1E15D0F76564224B3430EEB19DE6 /* Build configuration list for PBXProject "ConcetrationCardGame" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +142,99 @@
 				en,
 				Base,
 			);
-			mainGroup = 00AD33BC2228193900ACC9B3;
-			productRefGroup = 00AD33C62228193900ACC9B3 /* Products */;
+			mainGroup = A683F1CC10770B96389EC6B7029F411B;
+			productRefGroup = 06FF9595CEA0ABF8300F87B6ECE7E3D7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00AD33C42228193900ACC9B3 /* ConcetrationCardGame */,
+				AE4859AF663A5A9661EA302A88605AD5 /* ConcetrationCardGame */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00AD33C32228193900ACC9B3 /* Resources */ = {
+		E8FDF15145D43D0CD3B324AC1098976A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00AD33D32228193B00ACC9B3 /* LaunchScreen.storyboard in Resources */,
-				00AD33D02228193B00ACC9B3 /* Assets.xcassets in Resources */,
-				00AD33CE2228193900ACC9B3 /* Main.storyboard in Resources */,
+				6463F1348DC7D128275617860BAF7FE4 /* .swiftlint.yml in Resources */,
+				0B104BCD1B59CEA8586C66DE5EB0BB07 /* Assets.xcassets in Resources */,
+				B46EA3D97C16E39B4818D8469BADBCE0 /* LaunchScreen.storyboard in Resources */,
+				E56D372444538955255477A9FF8932D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4FA8B25D6E1988F46CABC324422760C0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+		A721C7A561AD02755D1DF53ADC0A47DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConcetrationCardGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		00AD33C12228193900ACC9B3 /* Sources */ = {
+		2DD1632D662784A218E24C3FCAF66BBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00AD33CB2228193900ACC9B3 /* ViewController.swift in Sources */,
-				00AD33DD222975AF00ACC9B3 /* Concentration.swift in Sources */,
-				00AD33DB222972E400ACC9B3 /* Card.swift in Sources */,
-				00AD33C92228193900ACC9B3 /* AppDelegate.swift in Sources */,
+				5FC2F0100BCDEB58289D9C340EB510CD /* AppDelegate.swift in Sources */,
+				548202D32B202D093F2A17F02DDE50F0 /* Card.swift in Sources */,
+				13A9FA6462E47C86D7304159E2A4A30C /* Concentration.swift in Sources */,
+				5227A6725E12C92AFD8B7C17E1BB7799 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		00AD33CC2228193900ACC9B3 /* Main.storyboard */ = {
+		F9149066092A625C857F50F4B2F10AA7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				00AD33CD2228193900ACC9B3 /* Base */,
+				D4028B59CC20B51A998CA724EA32417C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		00AD33D12228193B00ACC9B3 /* LaunchScreen.storyboard */ = {
+		9BB75C933D06A07B27FD9E0CB0356894 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				00AD33D22228193B00ACC9B3 /* Base */,
+				4C6FC1A80D1932E171C278F9A0D80049 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +242,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		00AD33D52228193B00ACC9B3 /* Debug */ = {
+		C4DEA97820926EA8DAA332F22D8C7FB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +303,7 @@
 			};
 			name = Debug;
 		};
-		00AD33D62228193B00ACC9B3 /* Release */ = {
+		8CF99AE3CB2C8B9AAC06CB04CF188760 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -286,8 +358,9 @@
 			};
 			name = Release;
 		};
-		00AD33D82228193B00ACC9B3 /* Debug */ = {
+		245D5946531AC059653C6D82F8BA7116 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90AA51C3BE4AE93063DE65D68075337E /* Pods-ConcetrationCardGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,8 +377,9 @@
 			};
 			name = Debug;
 		};
-		00AD33D92228193B00ACC9B3 /* Release */ = {
+		F5931BB6728CC058ABACBC70CCBD080D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6432DBACFDE5621E864B298B61C66DD /* Pods-ConcetrationCardGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -325,25 +399,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00AD33C02228193900ACC9B3 /* Build configuration list for PBXProject "ConcetrationCardGame" */ = {
+		873E1E15D0F76564224B3430EEB19DE6 /* Build configuration list for PBXProject "ConcetrationCardGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00AD33D52228193B00ACC9B3 /* Debug */,
-				00AD33D62228193B00ACC9B3 /* Release */,
+				C4DEA97820926EA8DAA332F22D8C7FB2 /* Debug */,
+				8CF99AE3CB2C8B9AAC06CB04CF188760 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00AD33D72228193B00ACC9B3 /* Build configuration list for PBXNativeTarget "ConcetrationCardGame" */ = {
+		866EE4775420F370190C2CAA5E0203EA /* Build configuration list for PBXNativeTarget "ConcetrationCardGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00AD33D82228193B00ACC9B3 /* Debug */,
-				00AD33D92228193B00ACC9B3 /* Release */,
+				245D5946531AC059653C6D82F8BA7116 /* Debug */,
+				F5931BB6728CC058ABACBC70CCBD080D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 00AD33BD2228193900ACC9B3 /* Project object */;
+	rootObject = 04006C19A9ABA0404E83A93D80990AF8 /* Project object */;
 }

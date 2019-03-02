@@ -1,0 +1,13 @@
+disabled_rules:
+- leading_whitespace
+- trailing_whitespace
+
+excluded:
+- ConcetrationCardGame/AppDelegate.swift
+
+line_length:
+warning: 99
+error: 120
+
+identifier_name:
+excluded:

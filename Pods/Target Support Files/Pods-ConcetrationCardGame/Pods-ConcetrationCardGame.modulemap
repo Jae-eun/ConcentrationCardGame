@@ -1,0 +1,6 @@
+framework module Pods_ConcetrationCardGame {
+  umbrella header "Pods-ConcetrationCardGame-umbrella.h"
+
+  export *
+  module * { export * }
+}
